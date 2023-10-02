@@ -11,6 +11,7 @@ class ShoppingList:
         self.products.append((product, number))
 
     def item(self, n: int):
+        
         return self.products[n - 1][0]
 
     def amount(self, n: int):
